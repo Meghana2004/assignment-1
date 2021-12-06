@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int act_price,dis_per,dis_amount,final_price;
+    printf("enter the actual amount of the product");
+    scanf("%d",&act_price);
+    dis_amount=(act_price*0.05);
+    final_price=(act_price-dis_amount);
+    printf("the discount amount is %d",dis_amount);
+    printf("the final amount is %d",final_price);
+    return 0;
+}
